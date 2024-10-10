@@ -7,6 +7,7 @@ import "moment/dist/locale/zh-cn";
 import { useEffect, useState } from "react";
 import { connect } from "react-redux";
 import { HashRouter } from "react-router-dom";
+import "./index.css";
 
 const App = (props: any) => {
 	const { language, assemblySize, themeConfig, setLanguage } = props;
@@ -20,7 +21,6 @@ const App = (props: any) => {
 	};
 
 	useEffect(() => {
-		// 全局使用国际化
 		setAntdLanguage();
 	}, [language]);
 

@@ -1,7 +1,3 @@
-// * 请求枚举配置
-/**
- * @description：请求配置
- */
 export enum ResultEnum {
 	SUCCESS = 200,
 	ERROR = 500,
@@ -10,9 +6,6 @@ export enum ResultEnum {
 	TYPE = "success"
 }
 
-/**
- * @description：请求方法
- */
 export enum RequestEnum {
 	GET = "GET",
 	POST = "POST",
@@ -21,9 +14,6 @@ export enum RequestEnum {
 	DELETE = "DELETE"
 }
 
-/**
- * @description：常用的contentTyp类型
- */
 export enum ContentTypeEnum {
 	// json
 	JSON = "application/json;charset=UTF-8",
